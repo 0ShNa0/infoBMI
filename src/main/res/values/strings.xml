@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="entry_height">Enter Height(in centimetres)</string>
+    <string name="entry_weight">Enter Weight(in kgs)</string>
+    <string name="height_header">Your Height</string>
+    <string name="weight_header">Your Weight</string>
+    <string name="bmi_command">Calculate BMI</string>
+</resources>

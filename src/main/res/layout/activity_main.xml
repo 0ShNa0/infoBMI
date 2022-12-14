@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/design_default_color_primary_variant"
+    tools:ignore="ExtraText"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/app_logo_"
+        android:id="@+id/logo"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/entered_height"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:padding="1dp"
+        android:layout_margin="4dp"
+        android:hint="@string/entry_height"
+        android:textColorHint="@color/material_dynamic_primary30"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/entered_weight"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:layout_margin="4dp"
+        android:padding="3dp"
+        android:hint="@string/entry_weight"
+        android:textColorHint="@color/material_dynamic_primary30"
+
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btn_calculator"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+
+        android:text="@string/bmi_command"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:id="@+id/bmi"
+        android:textColor="@color/white"
+        android:text="bmi"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
